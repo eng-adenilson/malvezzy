@@ -41,3 +41,6 @@ def calculaGasolina(horas: int, velocidadeMedia: int):
   litrosUsados = distancia / 2 
   
   print(f"O motorista dirigiu por {distancia}Km/h a {velocidadeMedia} ")
+
+
+https://colab.research.google.com/drive/1jci5JRVgH1sVMYsa8v-DLLqdMA2eouB-?usp=sharing
