@@ -1,0 +1,43 @@
+## 1111111111111111111111111111111111111
+ 
+# Ler dois números inteiros
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+
+# Realizar as operações
+soma = num1 + num2
+subtracao = num1 - num2
+multiplicacao = num1 * num2
+
+# Evitar erro de divisão por zero
+if num2 != 0:
+    divisao = num1 / num2
+else:
+    divisao = "Não é possível dividir por zero"
+
+# Exibir os resultados
+print(f"Soma: {soma}")
+print(f"Subtração: {subtracao}")
+print(f"Multiplicação: {multiplicacao}")
+print(f"Divisão: {divisao}")
+
+## 333333333333333333333333333333333333333333333333
+
+vogal = input("Digite uma palavra: ").lower()  # Converte para minúsculo para facilitar a verificação
+contagem_vogais = 0
+
+for letra in vogal:
+    if letra in "aeiou":
+        contagem_vogais += 1
+
+print(f"A quantidade de vogais na palavra ({vogal}) é: {contagem_vogais}")
+
+## 6666666666666666666666666666666666666666666666
+
+def calculaGasolina(horas: int, velocidadeMedia: int):
+
+  distancia = horas * velocidadeMedia
+
+  litrosUsados = distancia / 2 
+  
+  print(f"O motorista dirigiu por {distancia}Km/h a {velocidadeMedia} ")
